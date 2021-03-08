@@ -57,3 +57,59 @@ Recapitulando |
 
 ---
 
+### Interfaces
+
+![Interfaces 1](/img/interfaces_1.png)
+
+![Interfaces 2](/img/interfaces_2.png)
+
+![Interfaces 3](/img/interfaces_3.png)
+
+![Interfaces 4](/img/interfaces_4.png)
+
+---
+
+### Startup.cs e Middlewares
+
+```csharp
+using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Builder;
+
+public class MeuMiddleware
+{
+    private readonly RequestDelegate _next;
+
+    public MeuMiddleware(RequestDelegate next)
+    {
+        _next = next;
+    }
+
+    public async Task InvokeAsync(HttpContext context)
+    {
+        Console.WriteLine("\n\r ------- ANTES --------- \n\r");
+
+        await _next(context);
+        
+        Console.WriteLine("\n\r ------- DEPOIS --------- \n\r");
+
+    }
+}
+
+public static class MeuMiddlewareExtension
+{
+    public static IApplicationBuilder useMeuMiddleware(this IApplicationBuilder builder)
+    {
+        return builder.UseMiddleware<MeuMiddleware>();
+    }
+}
+
+```
+
+```csharp
+
+            //app.UseMiddleware<MeuMiddleware>();
+            app.useMeuMiddleware();
+            
+```
