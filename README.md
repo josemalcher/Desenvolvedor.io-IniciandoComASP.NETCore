@@ -27,11 +27,11 @@ App Settings | :heavy_check_mark:
 Classes de Configuração | :heavy_check_mark:
 Minha primeira App VS Code | :heavy_check_mark:
 Trabalhando com VS Code | :heavy_check_mark:
-OWIN | 
-Middlewares | 
-Interfaces | 
-Startup.cs e Middlewares | 
-Recapitulando | 
+OWIN | :heavy_check_mark:
+Middlewares | :heavy_check_mark:
+Interfaces | :heavy_check_mark:
+Startup.cs e Middlewares | :heavy_check_mark:
+Recapitulando | :heavy_check_mark:
 
 ---
 
@@ -111,5 +111,11 @@ public static class MeuMiddlewareExtension
 
             //app.UseMiddleware<MeuMiddleware>();
             app.useMeuMiddleware();
-            
+
 ```
+
+---
+
+### Recapitulando
+
+![resumo](/img/resumo.png)
