@@ -19,12 +19,12 @@ Instalação do .NET Core | :heavy_check_mark:
 Gerenciando Versões | :heavy_check_mark:
 Minha primeira APP ASP.NET Core | :heavy_check_mark:
 Tipos de Projetos | :heavy_check_mark:
-Minha primeira App VS | 
-Estrutura do Projeto | 
-Launch Settings | 
-Pasta wwwroot | 
-App Settings | 
-Classes de Configuração | 
+Minha primeira App VS | :heavy_check_mark:
+Estrutura do Projeto | :heavy_check_mark:
+Launch Settings | :heavy_check_mark:
+Pasta wwwroot | :heavy_check_mark:
+App Settings | :heavy_check_mark:
+Classes de Configuração | :heavy_check_mark:
 Minha primeira App VS Code | 
 Trabalhando com VS Code | 
 OWIN | 
@@ -38,3 +38,6 @@ Recapitulando |
 ### Tipos de Projetos
 
 ![Tipos de Projetos](img\arq-aspnetcore.png)
+
+---
+
