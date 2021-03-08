@@ -25,8 +25,8 @@ Launch Settings | :heavy_check_mark:
 Pasta wwwroot | :heavy_check_mark:
 App Settings | :heavy_check_mark:
 Classes de Configuração | :heavy_check_mark:
-Minha primeira App VS Code | 
-Trabalhando com VS Code | 
+Minha primeira App VS Code | :heavy_check_mark:
+Trabalhando com VS Code | :heavy_check_mark:
 OWIN | 
 Middlewares | 
 Interfaces | 
@@ -37,7 +37,7 @@ Recapitulando |
 
 ### Tipos de Projetos
 
-![Tipos de Projetos](img\arq-aspnetcore.png)
+![Tipos de Projetos](/img/arq-aspnetcore.png)
 
 ---
 
