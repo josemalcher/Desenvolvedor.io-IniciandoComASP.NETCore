@@ -41,3 +41,19 @@ Recapitulando |
 
 ---
 
+### OWIN
+
+![OWIN](/img/owin.png)
+
+---
+
+### Middlewares
+
+![Middlewares 1](/img/middlewares.png)
+
+![Middlewares 2](/img/middlewares_2.png)
+
+![Middlewares 3](/img/middlewares_3.png)
+
+---
+
