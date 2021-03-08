@@ -18,7 +18,7 @@ Testando os Conhecimentos | :heavy_check_mark:
 Instalação do .NET Core | :heavy_check_mark:
 Gerenciando Versões | :heavy_check_mark:
 Minha primeira APP ASP.NET Core | :heavy_check_mark:
-Tipos de Projetos | 
+Tipos de Projetos | :heavy_check_mark:
 Minha primeira App VS | 
 Estrutura do Projeto | 
 Launch Settings | 
@@ -34,3 +34,7 @@ Startup.cs e Middlewares |
 Recapitulando | 
 
 ---
+
+### Tipos de Projetos
+
+![Tipos de Projetos](img\arq-aspnetcore.png)
